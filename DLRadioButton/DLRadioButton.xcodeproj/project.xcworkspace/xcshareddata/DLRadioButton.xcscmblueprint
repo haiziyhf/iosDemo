@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "64c20430-464e-4f3a-8f02-e02d17a2d8c9++4523",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "64c20430-464e-4f3a-8f02-e02d17a2d8c9++4523" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "64c20430-464e-4f3a-8f02-e02d17a2d8c9++4523" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EDDBB49D-8825-48A4-867A-2C15F9E1B323",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "64c20430-464e-4f3a-8f02-e02d17a2d8c9++4523" : "work\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DLRadioButton",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iosTest\/DLRadioButton\/DLRadioButton.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/192.168.1.10\/demacia",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "64c20430-464e-4f3a-8f02-e02d17a2d8c9++4523"
+    }
+  ]
+}
