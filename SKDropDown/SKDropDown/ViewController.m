@@ -58,13 +58,28 @@
     
 }
 
+- (void)showDropDown:(UIButton *)sender tag:(NSInteger)tag
+{
+    SKDropDown *dropDown = [[SKDropDown alloc] showDropDown:sender withHeight:140 withData:dropData animationDirection:@"down"];
+    dropDown.delegate = self;
+    dropDown.tag = tag;
+    
+    switch (tag) {
+        case 1:
+            selectDrop = dropDown;
+            break;
+        case 2:
+            selectDropTwo = dropDown;
+            break;
+        default:
+            break;
+    }
+}
+
 - (void)showSKDrop
 {
     if (selectDrop == nil) {
-        SKDropDown *dropDown = [[SKDropDown alloc] showDropDown:button withHeight:140 withData:dropData animationDirection:@"down"];
-        dropDown.delegate = self;
-        dropDown.tag = 1;
-        selectDrop = dropDown;
+        [self showDropDown:button tag:1];
     } else {
         [selectDrop hideDropDown:button];
         selectDrop = nil;
@@ -74,15 +89,14 @@
 - (void)showSKDropTwo
 {
     if (selectDropTwo == nil) {
-        SKDropDown *dropDown = [[SKDropDown alloc] showDropDown:buttonTwo withHeight:140 withData:dropData animationDirection:@"down"];
-        dropDown.delegate = self;
-        dropDown.tag = 2;
-        selectDropTwo = dropDown;
+        [self showDropDown:buttonTwo tag:2];
     } else {
-        [selectDropTwo hideDropDown:button];
+        [selectDropTwo hideDropDown:buttonTwo];
         selectDropTwo = nil;
     }
 }
+
+
 
 
 //下拉列表每行的高度
