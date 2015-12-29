@@ -39,7 +39,7 @@
     button.titleLabel.font = [UIFont systemFontOfSize:16];
     button.layer.cornerRadius = 3.0f;
     [button addTarget:self action:@selector(showSKDrop) forControlEvents:UIControlEventTouchUpInside];
-    [button setTitle:@"下拉测试" forState:UIControlStateNormal];
+    [button setTitle:@"colorTest" forState:UIControlStateNormal];
     [button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [self.view addSubview:button];
     
@@ -96,9 +96,6 @@
     }
 }
 
-
-
-
 //下拉列表每行的高度
 - (CGFloat) dropDown:(SKDropDown *)dropDown heightForRow:(NSIndexPath *)indexPath
 {
@@ -120,8 +117,6 @@
             break;
     }
 }
-
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
