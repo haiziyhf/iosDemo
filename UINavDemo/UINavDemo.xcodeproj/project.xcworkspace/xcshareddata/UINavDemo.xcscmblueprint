@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "18F0F18FC7051660A2E76E81A0F7FC7B344F7E58",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "64c20430-464e-4f3a-8f02-e02d17a2d8c9++4523" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "18F0F18FC7051660A2E76E81A0F7FC7B344F7E58" : 0,
+    "64c20430-464e-4f3a-8f02-e02d17a2d8c9++4523" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "85C99465-A134-4385-B363-3DAB643DFDA9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "18F0F18FC7051660A2E76E81A0F7FC7B344F7E58" : "iosDemo\/",
+    "64c20430-464e-4f3a-8f02-e02d17a2d8c9++4523" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "UINavDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "UINavDemo\/UINavDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:haiziyhf\/iosDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "18F0F18FC7051660A2E76E81A0F7FC7B344F7E58"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/192.168.1.10\/demacia",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "64c20430-464e-4f3a-8f02-e02d17a2d8c9++4523"
+    }
+  ]
+}
