@@ -12,6 +12,8 @@
 
 - (void)actionAvator;
 
+- (void)actionAddressList;
+
 @end
 
 @interface SettingView : BaseTableView

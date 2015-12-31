@@ -9,6 +9,7 @@
 #import "SettingViewController.h"
 #import "SettingView.h"
 #import "AvatarViewController.h"
+#import "AddressViewController.h"
 
 @interface SettingViewController ()<SettingViewDelegate>
 
@@ -25,6 +26,9 @@
     
     self.navigationItem.title = @"设置";
     
+    UINavigationBar *navigationBar = self.navigationController.navigationBar;
+    navigationBar.tintColor = [UIColor blackColor];
+    
 }
 
 - (void)actionAvator
@@ -32,4 +36,11 @@
     AvatarViewController *avatarViewController = [[AvatarViewController alloc] init];
     [self.navigationController pushViewController:avatarViewController animated:YES];
 }
+
+- (void)actionAddressList
+{
+    AddressViewController *addressVeiwController = [[AddressViewController alloc] init];
+    [self.navigationController pushViewController:addressVeiwController animated:YES];
+}
+
 @end

@@ -85,4 +85,9 @@
     [self.delegate actionAvator];
 }
 
+- (void)actionAddressList
+{
+    [self.delegate actionAddressList];
+}
+
 @end
