@@ -85,6 +85,16 @@
     return section == 0 ? HEIGHT_TABLE_MARGIN_DEFAULT : HEIGHT_TABLE_MARGIN_ZERO;
 }
 
+- (void)renderData
+{
+    NSNumber *sex = [self getData:@"sex"];
+    if ([@1 isEqualToNumber:sex]) {
+        sexLabel.text = @"男";
+    } else if ([@2 isEqualToNumber:sex]) {
+        sexLabel.text = @"女";
+    }
+}
+
 - (void)actionAvatar
 {
     [self.delegate actionAvatar];

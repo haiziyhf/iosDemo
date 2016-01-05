@@ -6,11 +6,9 @@
 //  Copyright (c) 2015年 Gilbert. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import "FrameworkConfig.h"
-#import "Masonry.h"
+#import "BaseView.h"
 
-@interface BaseTableView : UIView <UITableViewDataSource, UITableViewDelegate>
+@interface BaseTableView : BaseView <UITableViewDataSource, UITableViewDelegate>
 
 @property (retain, nonatomic) UITableView *tableView;
 

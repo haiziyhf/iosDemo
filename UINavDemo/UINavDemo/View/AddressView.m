@@ -17,6 +17,7 @@
     if (!self) return nil;
     
     UIView *superView = self;
+    self.backgroundColor = [UIColor colorWithHexString:@"eeeeee"];
     
     UIButton *button = [[UIButton alloc] init];
     button.layer.borderWidth = 0.5f;

@@ -10,6 +10,8 @@
 #import "SettingView.h"
 #import "AvatarViewController.h"
 #import "AddressViewController.h"
+#import "MyWalletViewController.h"
+#import "SafetyViewController.h"
 
 @interface SettingViewController ()<SettingViewDelegate>
 
@@ -37,10 +39,22 @@
     [self.navigationController pushViewController:avatarViewController animated:YES];
 }
 
+- (void)actionMyWallet
+{
+    MyWalletViewController *viewController = [[MyWalletViewController alloc] init];
+    [self.navigationController pushViewController:viewController animated:YES];
+}
+
 - (void)actionAddressList
 {
     AddressViewController *addressVeiwController = [[AddressViewController alloc] init];
     [self.navigationController pushViewController:addressVeiwController animated:YES];
+}
+
+- (void)actionSafety
+{
+    SafetyViewController *safetyViewController = [[SafetyViewController alloc] init];
+    [self.navigationController pushViewController:safetyViewController animated:YES];
 }
 
 @end

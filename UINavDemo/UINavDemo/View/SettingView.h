@@ -12,7 +12,11 @@
 
 - (void)actionAvator;
 
+- (void)actionMyWallet;
+
 - (void)actionAddressList;
+
+- (void)actionSafety;
 
 @end
 

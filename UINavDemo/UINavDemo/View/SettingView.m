@@ -85,9 +85,19 @@
     [self.delegate actionAvator];
 }
 
+- (void)actionMyWallet
+{
+    [self.delegate actionMyWallet];
+}
+
 - (void)actionAddressList
 {
     [self.delegate actionAddressList];
+}
+
+- (void)actionSafety
+{
+    [self.delegate actionSafety];
 }
 
 @end

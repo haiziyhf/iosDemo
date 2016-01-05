@@ -14,13 +14,16 @@
 @end
 
 @implementation AvatarViewController
+{
+    AvatarView *avatarView;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    AvatarView *viewController = [[AvatarView alloc] init];
-    viewController.delegate = self;
-    self.view = viewController;
+    avatarView = [[AvatarView alloc] init];
+    avatarView.delegate = self;
+    self.view = avatarView;
     
     self.navigationItem.title = @"个人资料";
 }
@@ -28,7 +31,6 @@
 - (void)actionAvatar
 {
     UIAlertController *alertController = [UIAlertController alertControllerWithTitle:nil message:nil preferredStyle:UIAlertControllerStyleActionSheet];
-    //sheet.preferredStyle = UIAlertControllerStyleActionSheet;
     //检查相机是否可用
     if ([UIImagePickerController isSourceTypeAvailable: UIImagePickerControllerSourceTypeCamera] == YES) {
         [alertController addAction:[UIAlertAction actionWithTitle:@"拍照" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
@@ -58,7 +60,18 @@
 
 - (void)actionSex
 {
-
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:nil message:nil preferredStyle:UIAlertControllerStyleActionSheet];
+    [alertController addAction:[UIAlertAction actionWithTitle:@"男" style:UIAlertActionStyleDestructive handler:^(UIAlertAction *action) {
+        [avatarView setData:@"sex" value:@1];
+        [avatarView renderData];
+    }]];
+    [alertController addAction:[UIAlertAction actionWithTitle:@"女" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+        [avatarView setData:@"sex" value:@2];
+        [avatarView renderData];
+    }]];
+    [alertController addAction:[UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:nil]];
+    
+    [self presentViewController:alertController animated:YES completion:nil];
 }
 
 - (void)uploadAvatar:(NSString *)clickName

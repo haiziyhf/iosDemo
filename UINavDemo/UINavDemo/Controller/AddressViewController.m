@@ -49,6 +49,7 @@
     self.view = addressView;
     
     self.navigationItem.title = @"联动";
+    //self.view.backgroundColor = [UIColor grayColor];
 }
 
 - (void)showAddressList
