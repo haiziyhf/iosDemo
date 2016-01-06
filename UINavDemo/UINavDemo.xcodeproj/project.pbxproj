@@ -121,6 +121,7 @@
 		2BF0ADF31C31159100EC7A67 /* UIViewController+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF0ADED1C31159100EC7A67 /* UIViewController+REFrostedViewController.m */; };
 		2BF0ADF61C3115DA00EC7A67 /* AvatarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF0ADF51C3115DA00EC7A67 /* AvatarView.m */; };
 		2BF0ADF91C31184D00EC7A67 /* AvatarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF0ADF81C31184D00EC7A67 /* AvatarViewController.m */; };
+		2BFC97601C3D119B00FA1794 /* registerSuccess.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BFC975F1C3D119B00FA1794 /* registerSuccess.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -362,6 +363,7 @@
 		2BF0ADF51C3115DA00EC7A67 /* AvatarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvatarView.m; sourceTree = "<group>"; };
 		2BF0ADF71C31184D00EC7A67 /* AvatarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvatarViewController.h; sourceTree = "<group>"; };
 		2BF0ADF81C31184D00EC7A67 /* AvatarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvatarViewController.m; sourceTree = "<group>"; };
+		2BFC975F1C3D119B00FA1794 /* registerSuccess.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = registerSuccess.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -466,6 +468,7 @@
 			isa = PBXGroup;
 			children = (
 				2B03D3E51C2BA276008D8955 /* menu.png */,
+				2BFC975F1C3D119B00FA1794 /* registerSuccess.png */,
 				2BF0AD531C30CE3600EC7A67 /* nopic.png */,
 			);
 			path = image;
@@ -970,6 +973,7 @@
 				2B23DB321C3A0B1A00F7DD75 /* NotificationBackgroundSuccess.png in Resources */,
 				2B23DB361C3A0B1A00F7DD75 /* NotificationBackgroundWarning.png in Resources */,
 				2B23DB341C3A0B1A00F7DD75 /* NotificationBackgroundSuccessIcon.png in Resources */,
+				2BFC97601C3D119B00FA1794 /* registerSuccess.png in Resources */,
 				2B23DB311C3A0B1A00F7DD75 /* NotificationBackgroundMessage@2x.png in Resources */,
 				2B23DB3B1C3A0B1A00F7DD75 /* NotificationButtonBackground2.png in Resources */,
 				2B03D3BB1C2BA003008D8955 /* LaunchScreen.storyboard in Resources */,
