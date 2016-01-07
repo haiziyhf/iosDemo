@@ -6,8 +6,8 @@
 //  Copyright © 2015年 haizi. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface AddressViewController : UIViewController
+@interface AddressViewController : BaseViewController
 
 @end

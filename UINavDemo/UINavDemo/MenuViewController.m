@@ -21,12 +21,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-//    menuList = @[@"首页",@"我的相册",@"我的资料",@"设置"];
     menuList = [[NSArray alloc] initWithObjects:
                 @[@"首页",@"HomeViewController",@"show"],
                 @[@"设置",@"SettingViewController",@"push"],
                 @[@"我的相册",@"PhotoViewController",@"show"],
                 @[@"我的资料",@"MaterialViewController",@"show"],
+                @[@"按钮选择",@"ButtonListViewController",@"push"],
                 nil];
     
     self.tableView.delegate = self;

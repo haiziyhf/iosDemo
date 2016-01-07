@@ -52,7 +52,7 @@
 
     DLRadioButton *radioBtn = [[DLRadioButton alloc] init];
     radioBtn.iconSquare = YES;
-    radioBtn.iconSize = 16.0f;
+    radioBtn.iconSize = 12.0f;
     radioBtn.iconColor = [UIColor redColor];
     radioBtn.indicatorColor = [UIColor redColor];
     radioBtn.titleLabel.font = [UIFont systemFontOfSize:16.0];

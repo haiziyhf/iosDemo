@@ -6,9 +6,9 @@
 //  Copyright © 2016年 haizi. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface BalanceListViewController : UIViewController
+@interface BalanceListViewController : BaseViewController
 
 //控制器回调函数
 typedef void (^CallbackBlock)(id object);

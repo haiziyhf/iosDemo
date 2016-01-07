@@ -62,6 +62,9 @@
 
 #pragma mark - 公用配置
 /********公用配置>>>********/
+//加载本地化文件
+#import "LocaleUtil.h"
+
 //定义弹出框停留时间
 #define DIALOG_SHOW_TIME 2.0
 //定义成功框显示时间

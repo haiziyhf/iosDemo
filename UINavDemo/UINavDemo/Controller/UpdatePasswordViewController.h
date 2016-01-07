@@ -6,8 +6,8 @@
 //  Copyright © 2016年 haizi. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface UpdatePasswordViewController : UIViewController
+@interface UpdatePasswordViewController : BaseViewController
 
 @end

@@ -122,6 +122,13 @@
 		2BF0ADF61C3115DA00EC7A67 /* AvatarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF0ADF51C3115DA00EC7A67 /* AvatarView.m */; };
 		2BF0ADF91C31184D00EC7A67 /* AvatarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF0ADF81C31184D00EC7A67 /* AvatarViewController.m */; };
 		2BFC97601C3D119B00FA1794 /* registerSuccess.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BFC975F1C3D119B00FA1794 /* registerSuccess.png */; };
+		2BFD5EA71C3DF95100C5CDB1 /* ButtonListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFD5EA61C3DF95100C5CDB1 /* ButtonListView.m */; };
+		2BFD5EAA1C3E08F300C5CDB1 /* ButtonListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFD5EA91C3E08F300C5CDB1 /* ButtonListViewController.m */; };
+		2BFD5EAD1C3E14EE00C5CDB1 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFD5EAC1C3E14EE00C5CDB1 /* BaseViewController.m */; };
+		2BFD5EB51C3E159200C5CDB1 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFD5EB41C3E159200C5CDB1 /* Reachability.m */; };
+		2BFD5EB71C3E15E300C5CDB1 /* FrameworkPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BFD5EB61C3E15E300C5CDB1 /* FrameworkPlist.strings */; };
+		2BFD5EBA1C3E16B000C5CDB1 /* LocaleUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFD5EB91C3E16B000C5CDB1 /* LocaleUtil.m */; };
+		2BFD5EBD1C3E188300C5CDB1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BFD5EBC1C3E188300C5CDB1 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -364,6 +371,18 @@
 		2BF0ADF71C31184D00EC7A67 /* AvatarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvatarViewController.h; sourceTree = "<group>"; };
 		2BF0ADF81C31184D00EC7A67 /* AvatarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvatarViewController.m; sourceTree = "<group>"; };
 		2BFC975F1C3D119B00FA1794 /* registerSuccess.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = registerSuccess.png; sourceTree = "<group>"; };
+		2BFD5EA51C3DF95100C5CDB1 /* ButtonListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonListView.h; sourceTree = "<group>"; };
+		2BFD5EA61C3DF95100C5CDB1 /* ButtonListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonListView.m; sourceTree = "<group>"; };
+		2BFD5EA81C3E08F300C5CDB1 /* ButtonListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonListViewController.h; sourceTree = "<group>"; };
+		2BFD5EA91C3E08F300C5CDB1 /* ButtonListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonListViewController.m; sourceTree = "<group>"; };
+		2BFD5EAB1C3E14EE00C5CDB1 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		2BFD5EAC1C3E14EE00C5CDB1 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		2BFD5EB31C3E159200C5CDB1 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		2BFD5EB41C3E159200C5CDB1 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		2BFD5EB61C3E15E300C5CDB1 /* FrameworkPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = FrameworkPlist.strings; sourceTree = "<group>"; };
+		2BFD5EB81C3E16B000C5CDB1 /* LocaleUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocaleUtil.h; sourceTree = "<group>"; };
+		2BFD5EB91C3E16B000C5CDB1 /* LocaleUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocaleUtil.m; sourceTree = "<group>"; };
+		2BFD5EBC1C3E188300C5CDB1 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -419,6 +438,7 @@
 		2B03D3AA1C2BA003008D8955 /* UINavDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2BFD5EBB1C3E188300C5CDB1 /* config */,
 				2BF0ADC61C30E46A00EC7A67 /* Controller */,
 				2BF0ADC71C30E46A00EC7A67 /* View */,
 				2B03D3DE1C2BA03D008D8955 /* image */,
@@ -690,6 +710,8 @@
 			children = (
 				2BE6B4E91C34DC100070BE93 /* PickerUtil.h */,
 				2BE6B4EA1C34DC100070BE93 /* PickerUtil.m */,
+				2BFD5EB81C3E16B000C5CDB1 /* LocaleUtil.h */,
+				2BFD5EB91C3E16B000C5CDB1 /* LocaleUtil.m */,
 			);
 			path = util;
 			sourceTree = "<group>";
@@ -701,6 +723,8 @@
 				2BF0AD791C30DEF100EC7A67 /* BaseTableView.m */,
 				2BE6B4F21C3500820070BE93 /* BaseView.h */,
 				2BE6B4F31C3500820070BE93 /* BaseView.m */,
+				2BFD5EAB1C3E14EE00C5CDB1 /* BaseViewController.h */,
+				2BFD5EAC1C3E14EE00C5CDB1 /* BaseViewController.m */,
 			);
 			path = core;
 			sourceTree = "<group>";
@@ -708,6 +732,7 @@
 		2BF0AD561C30DEC800EC7A67 /* vender */ = {
 			isa = PBXGroup;
 			children = (
+				2BFD5EB21C3E159200C5CDB1 /* Reachability */,
 				2B1FE4F71C3B70D200E8F64B /* DLRadioButton */,
 				2B23DB421C3A0B5A00F7DD75 /* MJRefresh */,
 				2B23DB101C3A0B1A00F7DD75 /* TSMessages */,
@@ -753,6 +778,7 @@
 		2BF0AD7D1C30E1F200EC7A67 /* config */ = {
 			isa = PBXGroup;
 			children = (
+				2BFD5EB61C3E15E300C5CDB1 /* FrameworkPlist.strings */,
 				2BF0AD7E1C30E1F200EC7A67 /* FrameworkConfig.h */,
 			);
 			path = config;
@@ -815,6 +841,8 @@
 				2B1FE4F51C3B6C6E00E8F64B /* SafetyViewController.m */,
 				2B1FE4FE1C3B996600E8F64B /* UpdatePasswordViewController.h */,
 				2B1FE4FF1C3B996600E8F64B /* UpdatePasswordViewController.m */,
+				2BFD5EA81C3E08F300C5CDB1 /* ButtonListViewController.h */,
+				2BFD5EA91C3E08F300C5CDB1 /* ButtonListViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -836,6 +864,8 @@
 				2BC4345D1C3A6EEF0052254B /* SafetyView.m */,
 				2B1FE4FB1C3B72E100E8F64B /* UpdatePasswordView.h */,
 				2B1FE4FC1C3B72E100E8F64B /* UpdatePasswordView.m */,
+				2BFD5EA51C3DF95100C5CDB1 /* ButtonListView.h */,
+				2BFD5EA61C3DF95100C5CDB1 /* ButtonListView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -857,6 +887,23 @@
 				2BF0ADED1C31159100EC7A67 /* UIViewController+REFrostedViewController.m */,
 			);
 			path = REFrostedViewController;
+			sourceTree = "<group>";
+		};
+		2BFD5EB21C3E159200C5CDB1 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				2BFD5EB31C3E159200C5CDB1 /* Reachability.h */,
+				2BFD5EB41C3E159200C5CDB1 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		2BFD5EBB1C3E188300C5CDB1 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				2BFD5EBC1C3E188300C5CDB1 /* InfoPlist.strings */,
+			);
+			path = config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -978,6 +1025,8 @@
 				2B23DB3B1C3A0B1A00F7DD75 /* NotificationButtonBackground2.png in Resources */,
 				2B03D3BB1C2BA003008D8955 /* LaunchScreen.storyboard in Resources */,
 				2B23DB7D1C3A0B5A00F7DD75 /* MJRefresh.bundle in Resources */,
+				2BFD5EBD1C3E188300C5CDB1 /* InfoPlist.strings in Resources */,
+				2BFD5EB71C3E15E300C5CDB1 /* FrameworkPlist.strings in Resources */,
 				2B23DB2D1C3A0B1A00F7DD75 /* NotificationBackgroundError@2x.png in Resources */,
 				2B23DB2F1C3A0B1A00F7DD75 /* NotificationBackgroundErrorIcon@2x.png in Resources */,
 				2B23DB3C1C3A0B1A00F7DD75 /* NotificationButtonBackground2@2x.png in Resources */,
@@ -1067,11 +1116,13 @@
 				2B23DB731C3A0B5A00F7DD75 /* MJRefreshHeader.m in Sources */,
 				2BE6B4E21C34DBD60070BE93 /* ActionSheetDatePicker.m in Sources */,
 				2B23DB701C3A0B5A00F7DD75 /* MJRefreshBackFooter.m in Sources */,
+				2BFD5EBA1C3E16B000C5CDB1 /* LocaleUtil.m in Sources */,
 				2BE6B4E61C34DBD60070BE93 /* DistancePickerView.m in Sources */,
 				2B23DB411C3A0B1A00F7DD75 /* TSMessageView.m in Sources */,
 				2B03D3FC1C2BDF4F008D8955 /* MenuViewController.m in Sources */,
 				2BE6B4F71C3508290070BE93 /* AddressViewController.m in Sources */,
 				2B23DB041C3A0A2A00F7DD75 /* UIImageView+PlayGIF.m in Sources */,
+				2BFD5EAD1C3E14EE00C5CDB1 /* BaseViewController.m in Sources */,
 				2B23DB7C1C3A0B5A00F7DD75 /* MJRefreshStateHeader.m in Sources */,
 				2B23DB781C3A0B5A00F7DD75 /* MJRefreshBackNormalFooter.m in Sources */,
 				2BE6B4F11C34DDFC0070BE93 /* AddressView.m in Sources */,
@@ -1096,7 +1147,10 @@
 				2BE6B4E31C34DBD60070BE93 /* ActionSheetDistancePicker.m in Sources */,
 				2BF0ADF91C31184D00EC7A67 /* AvatarViewController.m in Sources */,
 				2BE6B4EB1C34DC100070BE93 /* PickerUtil.m in Sources */,
+				2BFD5EB51C3E159200C5CDB1 /* Reachability.m in Sources */,
 				2BF0AD701C30DEC800EC7A67 /* MASConstraint.m in Sources */,
+				2BFD5EAA1C3E08F300C5CDB1 /* ButtonListViewController.m in Sources */,
+				2BFD5EA71C3DF95100C5CDB1 /* ButtonListView.m in Sources */,
 				2BF0AD771C30DEC800EC7A67 /* View+MASAdditions.m in Sources */,
 				2B1FE4F61C3B6C6E00E8F64B /* SafetyViewController.m in Sources */,
 			);
