@@ -9,6 +9,7 @@
 #import "HomeViewController.h"
 #import "NavViewController.h"
 #import "SettingViewController.h"
+#import "WebProtocolViewController.h"
 
 @interface HomeViewController ()
 
@@ -32,7 +33,7 @@
     
     
     UIButton *button = [[UIButton alloc] init];
-    button.frame = CGRectMake([UIScreen mainScreen].bounds.size.width/2 - 50, 80, 100, 30);
+    button.frame = CGRectMake([UIScreen mainScreen].bounds.size.width/2 - 50, 20, 100, 30);
     button.layer.borderWidth = 0.5f;
     button.layer.borderColor = [UIColor redColor].CGColor;
     button.layer.cornerRadius = 3.0f;
@@ -43,6 +44,20 @@
     [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     
     [self.view addSubview:button];
+    
+    UIButton *webButton = [[UIButton alloc] init];
+    webButton.frame = CGRectMake([UIScreen mainScreen].bounds.size.width/2 - 50, 70, 100, 30);
+    webButton.layer.borderWidth = 0.5f;
+    webButton.layer.borderColor = [UIColor redColor].CGColor;
+    webButton.layer.cornerRadius = 3.0f;
+    
+    webButton.layer.backgroundColor = [UIColor whiteColor].CGColor;
+    [webButton addTarget:self action:@selector(actionWebProtocol) forControlEvents:UIControlEventTouchUpInside];
+    [webButton setTitle:@"网络协议" forState:UIControlStateNormal];
+    [webButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    
+    [self.view addSubview:webButton];
+
     
     self.navigationItem.title = @"主页面";
     self.view.backgroundColor = [UIColor whiteColor];
@@ -55,4 +70,11 @@
     SettingViewController *viewController = [[SettingViewController alloc] init];
     [self.navigationController pushViewController:viewController animated:YES];
 }
+
+- (void)actionWebProtocol
+{
+    WebProtocolViewController *viewController = [[WebProtocolViewController alloc] init];
+    [self.navigationController pushViewController:viewController animated:YES];
+}
+
 @end

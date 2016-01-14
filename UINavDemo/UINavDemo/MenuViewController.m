@@ -27,6 +27,7 @@
                 @[@"我的相册",@"PhotoViewController",@"show"],
                 @[@"我的资料",@"MaterialViewController",@"show"],
                 @[@"按钮选择",@"ButtonListViewController",@"push"],
+                @[@"自定义键盘",@"DefineKeyboardViewController",@"push"],
                 nil];
     
     self.tableView.delegate = self;

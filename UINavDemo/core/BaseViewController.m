@@ -36,6 +36,9 @@
     
     //第一次标记自动刷新
     self.shouldRefresh = YES;
+    
+    UINavigationBar *navigationBar = self.navigationController.navigationBar;
+    navigationBar.tintColor = [UIColor blackColor];
 }
 
 - (void)viewWillAppear:(BOOL)animated

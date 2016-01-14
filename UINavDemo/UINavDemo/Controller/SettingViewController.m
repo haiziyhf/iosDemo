@@ -27,10 +27,6 @@
     self.view = settingView;
     
     self.navigationItem.title = @"设置";
-    
-    UINavigationBar *navigationBar = self.navigationController.navigationBar;
-    navigationBar.tintColor = [UIColor blackColor];
-    
 }
 
 - (void)actionAvator

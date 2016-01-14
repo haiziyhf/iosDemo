@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B0141881C4773F0008441CC /* DefineKayboradView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0141871C4773F0008441CC /* DefineKayboradView.m */; };
+		2B01418B1C4775BC008441CC /* DefineKeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B01418A1C4775BC008441CC /* DefineKeyboardViewController.m */; };
+		2B01418F1C477903008441CC /* YHFKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B01418E1C477903008441CC /* YHFKeyboardView.m */; };
 		2B03D3AD1C2BA003008D8955 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B03D3AC1C2BA003008D8955 /* main.m */; };
 		2B03D3B01C2BA003008D8955 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B03D3AF1C2BA003008D8955 /* AppDelegate.m */; };
 		2B03D3B31C2BA003008D8955 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B03D3B21C2BA003008D8955 /* HomeViewController.m */; };
@@ -76,6 +79,8 @@
 		2B23DB841C3A0CC600F7DD75 /* MyWalletView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B23DB831C3A0CC600F7DD75 /* MyWalletView.m */; };
 		2B23DB871C3A0FB200F7DD75 /* MyWalletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B23DB861C3A0FB200F7DD75 /* MyWalletViewController.m */; };
 		2B23DB8A1C3A149C00F7DD75 /* BalanceListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B23DB891C3A149C00F7DD75 /* BalanceListView.m */; };
+		2BA5B0A51C45DFE000D3415D /* WebProtocolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5B0A41C45DFE000D3415D /* WebProtocolView.m */; };
+		2BA5B0A81C45E50A00D3415D /* WebProtocolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5B0A71C45E50A00D3415D /* WebProtocolViewController.m */; };
 		2BC4345B1C3A4D150052254B /* BalanceListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC4345A1C3A4D150052254B /* BalanceListViewController.m */; };
 		2BC4345E1C3A6EEF0052254B /* SafetyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC4345D1C3A6EEF0052254B /* SafetyView.m */; };
 		2BE6B4E01C34DBD60070BE93 /* AbstractActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE6B4CF1C34DBD60070BE93 /* AbstractActionSheetPicker.m */; };
@@ -149,6 +154,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B0141861C4773F0008441CC /* DefineKayboradView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefineKayboradView.h; sourceTree = "<group>"; };
+		2B0141871C4773F0008441CC /* DefineKayboradView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefineKayboradView.m; sourceTree = "<group>"; };
+		2B0141891C4775BC008441CC /* DefineKeyboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefineKeyboardViewController.h; sourceTree = "<group>"; };
+		2B01418A1C4775BC008441CC /* DefineKeyboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefineKeyboardViewController.m; sourceTree = "<group>"; };
+		2B01418D1C477903008441CC /* YHFKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHFKeyboardView.h; sourceTree = "<group>"; };
+		2B01418E1C477903008441CC /* YHFKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHFKeyboardView.m; sourceTree = "<group>"; };
 		2B03D3A81C2BA003008D8955 /* UINavDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UINavDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B03D3AC1C2BA003008D8955 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2B03D3AE1C2BA003008D8955 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -268,6 +279,10 @@
 		2B23DB861C3A0FB200F7DD75 /* MyWalletViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWalletViewController.m; sourceTree = "<group>"; };
 		2B23DB881C3A149C00F7DD75 /* BalanceListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BalanceListView.h; sourceTree = "<group>"; };
 		2B23DB891C3A149C00F7DD75 /* BalanceListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BalanceListView.m; sourceTree = "<group>"; };
+		2BA5B0A31C45DFE000D3415D /* WebProtocolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebProtocolView.h; sourceTree = "<group>"; };
+		2BA5B0A41C45DFE000D3415D /* WebProtocolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebProtocolView.m; sourceTree = "<group>"; };
+		2BA5B0A61C45E50A00D3415D /* WebProtocolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebProtocolViewController.h; sourceTree = "<group>"; };
+		2BA5B0A71C45E50A00D3415D /* WebProtocolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebProtocolViewController.m; sourceTree = "<group>"; };
 		2BC434591C3A4D150052254B /* BalanceListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BalanceListViewController.h; sourceTree = "<group>"; };
 		2BC4345A1C3A4D150052254B /* BalanceListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BalanceListViewController.m; sourceTree = "<group>"; };
 		2BC4345C1C3A6EEF0052254B /* SafetyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafetyView.h; sourceTree = "<group>"; };
@@ -410,6 +425,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B01418C1C4778D2008441CC /* YHFKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				2B01418D1C477903008441CC /* YHFKeyboardView.h */,
+				2B01418E1C477903008441CC /* YHFKeyboardView.m */,
+			);
+			path = YHFKeyboard;
+			sourceTree = "<group>";
+		};
 		2B03D39F1C2BA003008D8955 = {
 			isa = PBXGroup;
 			children = (
@@ -732,6 +756,7 @@
 		2BF0AD561C30DEC800EC7A67 /* vender */ = {
 			isa = PBXGroup;
 			children = (
+				2B01418C1C4778D2008441CC /* YHFKeyboard */,
 				2BFD5EB21C3E159200C5CDB1 /* Reachability */,
 				2B1FE4F71C3B70D200E8F64B /* DLRadioButton */,
 				2B23DB421C3A0B5A00F7DD75 /* MJRefresh */,
@@ -843,6 +868,10 @@
 				2B1FE4FF1C3B996600E8F64B /* UpdatePasswordViewController.m */,
 				2BFD5EA81C3E08F300C5CDB1 /* ButtonListViewController.h */,
 				2BFD5EA91C3E08F300C5CDB1 /* ButtonListViewController.m */,
+				2BA5B0A61C45E50A00D3415D /* WebProtocolViewController.h */,
+				2BA5B0A71C45E50A00D3415D /* WebProtocolViewController.m */,
+				2B0141891C4775BC008441CC /* DefineKeyboardViewController.h */,
+				2B01418A1C4775BC008441CC /* DefineKeyboardViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -866,6 +895,10 @@
 				2B1FE4FC1C3B72E100E8F64B /* UpdatePasswordView.m */,
 				2BFD5EA51C3DF95100C5CDB1 /* ButtonListView.h */,
 				2BFD5EA61C3DF95100C5CDB1 /* ButtonListView.m */,
+				2BA5B0A31C45DFE000D3415D /* WebProtocolView.h */,
+				2BA5B0A41C45DFE000D3415D /* WebProtocolView.m */,
+				2B0141861C4773F0008441CC /* DefineKayboradView.h */,
+				2B0141871C4773F0008441CC /* DefineKayboradView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1067,12 +1100,15 @@
 				2BF0ADBD1C30E28A00EC7A67 /* DDFileLogger.m in Sources */,
 				2BF0AD751C30DEC800EC7A67 /* NSArray+MASAdditions.m in Sources */,
 				2BE6B4EE1C34DC590070BE93 /* PickerViewController.m in Sources */,
+				2BA5B0A81C45E50A00D3415D /* WebProtocolViewController.m in Sources */,
 				2B23DB081C3A0A2A00F7DD75 /* UITextView+Placeholder.m in Sources */,
 				2B23DB801C3A0B5A00F7DD75 /* UIScrollView+MJRefresh.m in Sources */,
+				2BA5B0A51C45DFE000D3415D /* WebProtocolView.m in Sources */,
 				2B23DB811C3A0B5A00F7DD75 /* UIView+MJExtension.m in Sources */,
 				2B23DB741C3A0B5A00F7DD75 /* MJRefreshAutoGifFooter.m in Sources */,
 				2B23DB711C3A0B5A00F7DD75 /* MJRefreshComponent.m in Sources */,
 				2B23DB0B1C3A0A2A00F7DD75 /* UIViewController+Ltt.m in Sources */,
+				2B01418F1C477903008441CC /* YHFKeyboardView.m in Sources */,
 				2BF0AD761C30DEC800EC7A67 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				2BF0ADBF1C30E28A00EC7A67 /* DDTTYLogger.m in Sources */,
 				2BE6B4E11C34DBD60070BE93 /* ActionSheetCustomPicker.m in Sources */,
@@ -1084,6 +1120,7 @@
 				2BF0AD7A1C30DEF100EC7A67 /* BaseTableView.m in Sources */,
 				2B1FE5001C3B996600E8F64B /* UpdatePasswordViewController.m in Sources */,
 				2BF0ADBA1C30E28A00EC7A67 /* DDAbstractDatabaseLogger.m in Sources */,
+				2B01418B1C4775BC008441CC /* DefineKeyboardViewController.m in Sources */,
 				2B1FE4FD1C3B72E100E8F64B /* UpdatePasswordView.m in Sources */,
 				2B1FE4FA1C3B70D200E8F64B /* DLRadioButton.m in Sources */,
 				2BF0AD731C30DEC800EC7A67 /* MASViewAttribute.m in Sources */,
@@ -1124,6 +1161,7 @@
 				2B23DB041C3A0A2A00F7DD75 /* UIImageView+PlayGIF.m in Sources */,
 				2BFD5EAD1C3E14EE00C5CDB1 /* BaseViewController.m in Sources */,
 				2B23DB7C1C3A0B5A00F7DD75 /* MJRefreshStateHeader.m in Sources */,
+				2B0141881C4773F0008441CC /* DefineKayboradView.m in Sources */,
 				2B23DB781C3A0B5A00F7DD75 /* MJRefreshBackNormalFooter.m in Sources */,
 				2BE6B4F11C34DDFC0070BE93 /* AddressView.m in Sources */,
 				2B23DB761C3A0B5A00F7DD75 /* MJRefreshAutoStateFooter.m in Sources */,
