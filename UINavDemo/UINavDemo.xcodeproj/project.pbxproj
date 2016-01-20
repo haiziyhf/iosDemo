@@ -79,6 +79,11 @@
 		2B23DB841C3A0CC600F7DD75 /* MyWalletView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B23DB831C3A0CC600F7DD75 /* MyWalletView.m */; };
 		2B23DB871C3A0FB200F7DD75 /* MyWalletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B23DB861C3A0FB200F7DD75 /* MyWalletViewController.m */; };
 		2B23DB8A1C3A149C00F7DD75 /* BalanceListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B23DB891C3A149C00F7DD75 /* BalanceListView.m */; };
+		2B40220A1C4CD9A3003841BF /* AoiroSoraLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4022091C4CD9A3003841BF /* AoiroSoraLayout.m */; };
+		2B40220D1C4CDA42003841BF /* WaterfallsFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B40220C1C4CDA42003841BF /* WaterfallsFlowView.m */; };
+		2B4022101C4CE050003841BF /* WaterfallsFlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B40220F1C4CE050003841BF /* WaterfallsFlowViewController.m */; };
+		2B75807F1C4E2D8300D383D9 /* ClickSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B75807E1C4E2D8300D383D9 /* ClickSelectView.m */; };
+		2B7580831C4E31E500D383D9 /* ClickSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7580821C4E31E500D383D9 /* ClickSelectViewController.m */; };
 		2BA5B0A51C45DFE000D3415D /* WebProtocolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5B0A41C45DFE000D3415D /* WebProtocolView.m */; };
 		2BA5B0A81C45E50A00D3415D /* WebProtocolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5B0A71C45E50A00D3415D /* WebProtocolViewController.m */; };
 		2BC4345B1C3A4D150052254B /* BalanceListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC4345A1C3A4D150052254B /* BalanceListViewController.m */; };
@@ -279,6 +284,16 @@
 		2B23DB861C3A0FB200F7DD75 /* MyWalletViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWalletViewController.m; sourceTree = "<group>"; };
 		2B23DB881C3A149C00F7DD75 /* BalanceListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BalanceListView.h; sourceTree = "<group>"; };
 		2B23DB891C3A149C00F7DD75 /* BalanceListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BalanceListView.m; sourceTree = "<group>"; };
+		2B4022081C4CD9A3003841BF /* AoiroSoraLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AoiroSoraLayout.h; sourceTree = "<group>"; };
+		2B4022091C4CD9A3003841BF /* AoiroSoraLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AoiroSoraLayout.m; sourceTree = "<group>"; };
+		2B40220B1C4CDA42003841BF /* WaterfallsFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterfallsFlowView.h; sourceTree = "<group>"; };
+		2B40220C1C4CDA42003841BF /* WaterfallsFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterfallsFlowView.m; sourceTree = "<group>"; };
+		2B40220E1C4CE050003841BF /* WaterfallsFlowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterfallsFlowViewController.h; sourceTree = "<group>"; };
+		2B40220F1C4CE050003841BF /* WaterfallsFlowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterfallsFlowViewController.m; sourceTree = "<group>"; };
+		2B75807D1C4E2D8300D383D9 /* ClickSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClickSelectView.h; sourceTree = "<group>"; };
+		2B75807E1C4E2D8300D383D9 /* ClickSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClickSelectView.m; sourceTree = "<group>"; };
+		2B7580811C4E31E500D383D9 /* ClickSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClickSelectViewController.h; sourceTree = "<group>"; };
+		2B7580821C4E31E500D383D9 /* ClickSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClickSelectViewController.m; sourceTree = "<group>"; };
 		2BA5B0A31C45DFE000D3415D /* WebProtocolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebProtocolView.h; sourceTree = "<group>"; };
 		2BA5B0A41C45DFE000D3415D /* WebProtocolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebProtocolView.m; sourceTree = "<group>"; };
 		2BA5B0A61C45E50A00D3415D /* WebProtocolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebProtocolViewController.h; sourceTree = "<group>"; };
@@ -704,6 +719,15 @@
 			path = Header;
 			sourceTree = "<group>";
 		};
+		2B4022071C4CD9A3003841BF /* AoiroSoraLayout */ = {
+			isa = PBXGroup;
+			children = (
+				2B4022081C4CD9A3003841BF /* AoiroSoraLayout.h */,
+				2B4022091C4CD9A3003841BF /* AoiroSoraLayout.m */,
+			);
+			path = AoiroSoraLayout;
+			sourceTree = "<group>";
+		};
 		2BE6B4CD1C34DBD50070BE93 /* ActionSheetPicker */ = {
 			isa = PBXGroup;
 			children = (
@@ -756,6 +780,7 @@
 		2BF0AD561C30DEC800EC7A67 /* vender */ = {
 			isa = PBXGroup;
 			children = (
+				2B4022071C4CD9A3003841BF /* AoiroSoraLayout */,
 				2B01418C1C4778D2008441CC /* YHFKeyboard */,
 				2BFD5EB21C3E159200C5CDB1 /* Reachability */,
 				2B1FE4F71C3B70D200E8F64B /* DLRadioButton */,
@@ -872,6 +897,10 @@
 				2BA5B0A71C45E50A00D3415D /* WebProtocolViewController.m */,
 				2B0141891C4775BC008441CC /* DefineKeyboardViewController.h */,
 				2B01418A1C4775BC008441CC /* DefineKeyboardViewController.m */,
+				2B40220E1C4CE050003841BF /* WaterfallsFlowViewController.h */,
+				2B40220F1C4CE050003841BF /* WaterfallsFlowViewController.m */,
+				2B7580811C4E31E500D383D9 /* ClickSelectViewController.h */,
+				2B7580821C4E31E500D383D9 /* ClickSelectViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -899,6 +928,10 @@
 				2BA5B0A41C45DFE000D3415D /* WebProtocolView.m */,
 				2B0141861C4773F0008441CC /* DefineKayboradView.h */,
 				2B0141871C4773F0008441CC /* DefineKayboradView.m */,
+				2B40220B1C4CDA42003841BF /* WaterfallsFlowView.h */,
+				2B40220C1C4CDA42003841BF /* WaterfallsFlowView.m */,
+				2B75807D1C4E2D8300D383D9 /* ClickSelectView.h */,
+				2B75807E1C4E2D8300D383D9 /* ClickSelectView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1093,6 +1126,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B4022101C4CE050003841BF /* WaterfallsFlowViewController.m in Sources */,
 				2B03D3B31C2BA003008D8955 /* HomeViewController.m in Sources */,
 				2BE6B4E01C34DBD60070BE93 /* AbstractActionSheetPicker.m in Sources */,
 				2BF0ADCA1C30E48A00EC7A67 /* SettingView.m in Sources */,
@@ -1113,8 +1147,10 @@
 				2BF0ADBF1C30E28A00EC7A67 /* DDTTYLogger.m in Sources */,
 				2BE6B4E11C34DBD60070BE93 /* ActionSheetCustomPicker.m in Sources */,
 				2BF0ADC01C30E28A00EC7A67 /* DDContextFilterLogFormatter.m in Sources */,
+				2B40220A1C4CD9A3003841BF /* AoiroSoraLayout.m in Sources */,
 				2B23DB031C3A0A2A00F7DD75 /* UIColor+Hex.m in Sources */,
 				2BF0ADBC1C30E28A00EC7A67 /* DDASLLogger.m in Sources */,
+				2B40220D1C4CDA42003841BF /* WaterfallsFlowView.m in Sources */,
 				2BF0ADBE1C30E28A00EC7A67 /* DDLog.m in Sources */,
 				2B23DB7B1C3A0B5A00F7DD75 /* MJRefreshNormalHeader.m in Sources */,
 				2BF0AD7A1C30DEF100EC7A67 /* BaseTableView.m in Sources */,
@@ -1181,6 +1217,7 @@
 				2B23DB771C3A0B5A00F7DD75 /* MJRefreshBackGifFooter.m in Sources */,
 				2BF0ADF61C3115DA00EC7A67 /* AvatarView.m in Sources */,
 				2B23DB871C3A0FB200F7DD75 /* MyWalletViewController.m in Sources */,
+				2B75807F1C4E2D8300D383D9 /* ClickSelectView.m in Sources */,
 				2BC4345E1C3A6EEF0052254B /* SafetyView.m in Sources */,
 				2BE6B4E31C34DBD60070BE93 /* ActionSheetDistancePicker.m in Sources */,
 				2BF0ADF91C31184D00EC7A67 /* AvatarViewController.m in Sources */,
@@ -1190,6 +1227,7 @@
 				2BFD5EAA1C3E08F300C5CDB1 /* ButtonListViewController.m in Sources */,
 				2BFD5EA71C3DF95100C5CDB1 /* ButtonListView.m in Sources */,
 				2BF0AD771C30DEC800EC7A67 /* View+MASAdditions.m in Sources */,
+				2B7580831C4E31E500D383D9 /* ClickSelectViewController.m in Sources */,
 				2B1FE4F61C3B6C6E00E8F64B /* SafetyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,6 +10,8 @@
 #import "NavViewController.h"
 #import "SettingViewController.h"
 #import "WebProtocolViewController.h"
+#import "WaterfallsFlowViewController.h"
+#import "ClickSelectViewController.h"
 
 @interface HomeViewController ()
 
@@ -57,6 +59,33 @@
     [webButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     
     [self.view addSubview:webButton];
+    
+    UIButton *waterButton = [[UIButton alloc] init];
+    waterButton.frame = CGRectMake([UIScreen mainScreen].bounds.size.width/2 - 50, 120, 100, 30);
+    waterButton.layer.borderWidth = 0.5f;
+    waterButton.layer.borderColor = [UIColor redColor].CGColor;
+    waterButton.layer.cornerRadius = 3.0f;
+    
+    waterButton.layer.backgroundColor = [UIColor whiteColor].CGColor;
+    [waterButton addTarget:self action:@selector(actionWaterfallsFlow) forControlEvents:UIControlEventTouchUpInside];
+    [waterButton setTitle:@"瀑布流" forState:UIControlStateNormal];
+    [waterButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    
+    [self.view addSubview:waterButton];
+    
+    
+    UIButton *clickButton = [[UIButton alloc] init];
+    clickButton.frame = CGRectMake([UIScreen mainScreen].bounds.size.width/2 - 50, 170, 100, 30);
+    clickButton.layer.borderWidth = 0.5f;
+    clickButton.layer.borderColor = [UIColor redColor].CGColor;
+    clickButton.layer.cornerRadius = 3.0f;
+    
+    clickButton.layer.backgroundColor = [UIColor whiteColor].CGColor;
+    [clickButton addTarget:self action:@selector(actionClickSelect) forControlEvents:UIControlEventTouchUpInside];
+    [clickButton setTitle:@"点击选择" forState:UIControlStateNormal];
+    [clickButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    
+    [self.view addSubview:clickButton];
 
     
     self.navigationItem.title = @"主页面";
@@ -74,6 +103,18 @@
 - (void)actionWebProtocol
 {
     WebProtocolViewController *viewController = [[WebProtocolViewController alloc] init];
+    [self.navigationController pushViewController:viewController animated:YES];
+}
+
+- (void)actionWaterfallsFlow
+{
+    WaterfallsFlowViewController *viewController = [[WaterfallsFlowViewController alloc] init];
+    [self.navigationController pushViewController:viewController animated:YES];
+}
+
+- (void)actionClickSelect
+{
+    ClickSelectViewController *viewController = [[ClickSelectViewController alloc] init];
     [self.navigationController pushViewController:viewController animated:YES];
 }
 
