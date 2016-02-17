@@ -12,6 +12,7 @@
 #import "WebProtocolViewController.h"
 #import "WaterfallsFlowViewController.h"
 #import "ClickSelectViewController.h"
+#import "PageViewController.h"
 
 @interface HomeViewController ()
 
@@ -86,6 +87,19 @@
     [clickButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     
     [self.view addSubview:clickButton];
+    
+    UIButton *pageButton = [[UIButton alloc] init];
+    pageButton.frame = CGRectMake([UIScreen mainScreen].bounds.size.width/2 - 50, 220, 100, 30);
+    pageButton.layer.borderWidth = 0.5f;
+    pageButton.layer.borderColor = [UIColor redColor].CGColor;
+    pageButton.layer.cornerRadius = 3.0f;
+    
+    pageButton.layer.backgroundColor = [UIColor whiteColor].CGColor;
+    [pageButton addTarget:self action:@selector(actionPageControl) forControlEvents:UIControlEventTouchUpInside];
+    [pageButton setTitle:@"分页空间" forState:UIControlStateNormal];
+    [pageButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    
+    [self.view addSubview:pageButton];
 
     
     self.navigationItem.title = @"主页面";
@@ -115,6 +129,12 @@
 - (void)actionClickSelect
 {
     ClickSelectViewController *viewController = [[ClickSelectViewController alloc] init];
+    [self.navigationController pushViewController:viewController animated:YES];
+}
+
+- (void)actionPageControl
+{
+    PageViewController *viewController = [[PageViewController alloc] init];
     [self.navigationController pushViewController:viewController animated:YES];
 }
 

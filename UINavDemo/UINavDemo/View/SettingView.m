@@ -29,6 +29,8 @@
                       @[
                         @{@"id" : @"address", @"type" : @"action", @"action": @"actionAddressList", @"image": @"", @"text" : @"我的地址"},
                         @{@"id" : @"safety", @"type" : @"action", @"action": @"actionSafety", @"image": @"", @"text" : @"账户与安全"},
+                        @{@"id" : @"demo", @"type" : @"action", @"action": @"actionDemo", @"image": @"", @"text" : @"实例Demo"},
+                        @{@"id" : @"goGradOne", @"type" : @"action", @"action": @"actionGoGradOne", @"image": @"", @"text" : @"去抢单"},
                         ],
                       nil];
     [self.tableView reloadData];
@@ -57,7 +59,6 @@
             make.height.equalTo(@40);
             make.width.equalTo(@40);
         }];
-        
         
         nameLabel = [[UILabel alloc] init];
         nameLabel.text = @"杨杨海子";
@@ -99,5 +100,16 @@
 {
     [self.delegate actionSafety];
 }
+
+- (void)actionDemo
+{
+    [self.delegate actionDemo];
+}
+
+- (void)actionGoGradOne
+{
+    [self.delegate actionGoGradOne];
+}
+
 
 @end

@@ -18,6 +18,10 @@
 
 - (void)actionSafety;
 
+- (void)actionDemo;
+
+- (void)actionGoGradOne;
+
 @end
 
 @interface SettingView : BaseTableView

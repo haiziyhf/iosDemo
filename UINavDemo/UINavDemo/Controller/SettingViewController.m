@@ -12,6 +12,8 @@
 #import "AddressViewController.h"
 #import "MyWalletViewController.h"
 #import "SafetyViewController.h"
+#import "DemoViewController.h"
+#import "GrabOneViewController.h"
 
 @interface SettingViewController ()<SettingViewDelegate>
 
@@ -51,6 +53,18 @@
 {
     SafetyViewController *safetyViewController = [[SafetyViewController alloc] init];
     [self.navigationController pushViewController:safetyViewController animated:YES];
+}
+
+- (void)actionDemo
+{
+    DemoViewController *demoViewController = [[DemoViewController alloc] init];
+    [self.navigationController pushViewController:demoViewController animated:YES];
+}
+
+- (void)actionGoGradOne
+{
+    GrabOneViewController *grabOneController = [[GrabOneViewController alloc] init];
+    [self.navigationController pushViewController:grabOneController animated:YES];
 }
 
 @end
