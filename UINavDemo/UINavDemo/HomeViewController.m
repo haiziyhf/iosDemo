@@ -96,7 +96,7 @@
     
     pageButton.layer.backgroundColor = [UIColor whiteColor].CGColor;
     [pageButton addTarget:self action:@selector(actionPageControl) forControlEvents:UIControlEventTouchUpInside];
-    [pageButton setTitle:@"分页空间" forState:UIControlStateNormal];
+    [pageButton setTitle:@"循环展示" forState:UIControlStateNormal];
     [pageButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     
     [self.view addSubview:pageButton];
@@ -104,8 +104,6 @@
     
     self.navigationItem.title = @"主页面";
     self.view.backgroundColor = [UIColor whiteColor];
-    
-    
 }
 
 - (void)actionPush
