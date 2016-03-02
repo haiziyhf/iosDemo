@@ -7,18 +7,62 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
-
+{
+    REFrostedViewController *frostedViewController;
+    NavigationController *navigationController;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    //全局导航栏颜色
+    UINavigationBar *navigationBar = [UINavigationBar appearance];
+    //iOS6兼容
+    if ([navigationBar respondsToSelector:@selector(setBarTintColor:)]) {
+        navigationBar.barTintColor = [UIColor colorWithHexString:@"F8F8F8"];
+    }
+    navigationBar.tintColor = COLOR_MAIN_BLACK;
+    navigationBar.titleTextAttributes = @{
+                                          NSFontAttributeName:[UIFont systemFontOfSize:20],
+                                          NSForegroundColorAttributeName: COLOR_MAIN_BLACK
+                                          };
+    
+    NSLog(@"heool");
+
+    
+    //初始化控制器
+    [self initViewController];
+    
     // Override point for customization after application launch.
     return YES;
 }
+
+- (void)initViewController {
+    UIViewController *viewController = nil;
+    viewController = [[ViewController alloc] init];
+    
+    navigationController = [[NavigationController alloc] initWithRootViewController:viewController];
+    MenuViewController *menuViewController = [[MenuViewController alloc] initWithStyle:UITableViewStylePlain];
+    
+    frostedViewController = [[REFrostedViewController alloc] initWithContentViewController:navigationController menuViewController:menuViewController];
+    frostedViewController.direction = REFrostedViewControllerDirectionLeft;
+    frostedViewController.liveBlurBackgroundStyle = REFrostedViewControllerLiveBackgroundStyleLight;
+    frostedViewController.liveBlur = YES;
+    frostedViewController.delegate = self;
+    
+    self.window.rootViewController = frostedViewController;
+    self.window.backgroundColor = COLOR_MAIN_BG;
+    [self.window makeKeyAndVisible];
+    
+}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
