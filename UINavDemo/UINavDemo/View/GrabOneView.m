@@ -15,6 +15,8 @@
     self = [super init];
     if (!self) return nil;
     
+    self.backgroundColor = [UIColor colorWithHexString:@"eeeeee"];
+    
     UIView *superView = self;
     
     UIButton *grabButton = [[UIButton alloc] init];

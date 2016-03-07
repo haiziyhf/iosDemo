@@ -32,6 +32,9 @@
                         @{@"id" : @"demo", @"type" : @"action", @"action": @"actionDemo", @"image": @"", @"text" : @"实例Demo"},
                         @{@"id" : @"goGradOne", @"type" : @"action", @"action": @"actionGoGradOne", @"image": @"", @"text" : @"去抢单"},
                         ],
+                      @[
+                        @{@"id" : @"share", @"type" : @"action", @"action": @"actionShare", @"image": @"", @"text" : @"分享"},
+                        ],
                       nil];
     [self.tableView reloadData];
     
@@ -109,6 +112,11 @@
 - (void)actionGoGradOne
 {
     [self.delegate actionGoGradOne];
+}
+
+- (void)actionShare
+{
+    [self.delegate actionShare];
 }
 
 

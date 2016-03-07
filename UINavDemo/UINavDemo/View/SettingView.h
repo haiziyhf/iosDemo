@@ -22,6 +22,8 @@
 
 - (void)actionGoGradOne;
 
+- (void)actionShare;
+
 @end
 
 @interface SettingView : BaseTableView

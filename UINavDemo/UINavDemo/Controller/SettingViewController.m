@@ -14,6 +14,7 @@
 #import "SafetyViewController.h"
 #import "DemoViewController.h"
 #import "GrabOneViewController.h"
+#import "UMSocial.h"
 
 @interface SettingViewController ()<SettingViewDelegate>
 
@@ -65,6 +66,18 @@
 {
     GrabOneViewController *grabOneController = [[GrabOneViewController alloc] init];
     [self.navigationController pushViewController:grabOneController animated:YES];
+}
+
+- (void)actionShare
+{
+    
+    //注意：分享到微信好友、微信朋友圈、微信收藏、QQ空间、QQ好友、来往好友、来往朋友圈、易信好友、易信朋友圈、Facebook、Twitter、Instagram等平台需要参考各自的集成方法
+    [UMSocialSnsService presentSnsIconSheetView:self
+                                         appKey:@"56c6c36fe0f55af500001166"
+                                      shareText:@"你要分享的文字"
+                                     shareImage:[UIImage imageNamed:@"icon.png"]
+                                shareToSnsNames:[NSArray arrayWithObjects:UMShareToSina,UMShareToWechatSession,UMShareToQQ,UMShareToSms,nil]
+                                       delegate:nil];
 }
 
 @end

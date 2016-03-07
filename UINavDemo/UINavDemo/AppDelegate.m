@@ -10,7 +10,11 @@
 #import "NavViewController.h"
 #import "HomeViewController.h"
 #import "MenuViewController.h"
-
+#import "MZGuidePages.h"
+#import "UMSocial.h"
+//#import "UMSocialWechatHandler.h"
+//#import "UMSocialSinaSSOHandler.h"
+//#import "UMSocialQQHandler.h"
 
 @implementation AppDelegate
 
@@ -43,7 +47,79 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
 
+    //只运行一次
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    NSString *launched = [userDefaults objectForKey:@"launched"];
+    if (!launched)
+    {
+        [self guidePages];
+        launched = @"YES";
+        [userDefaults setObject:launched forKey:@"launched"];
+        [userDefaults synchronize];
+    }
+    
+    //一直运行
+    //[self guidePages];
+    
+    //初始化友盟分享
+    [self initUMeng];
+    
     return YES;
 }
+
+//初始化友盟社会组件
+- (void)initUMeng
+{
+    //设置友盟社会化组件appkey
+    [UMSocialData setAppKey:@"56c6c36fe0f55af500001166"];
+    
+    /*
+    //设置微信AppId、appSecret，分享url
+    [UMSocialWechatHandler setWXAppId:@"wxd930ea5d5a258f4f" appSecret:@"db426a9829e4b49a0dcac7b4162da6b6" url:@"http://user.qzone.qq.com/775317846/infocenter"];
+    
+    //打开新浪微博的SSO开关，设置新浪微博回调地址，这里必须要和你在新浪微博后台设置的回调地址一致。
+    [UMSocialSinaSSOHandler openNewSinaSSOWithAppKey:@"3921700954"
+                                              secret:@"04b48b094faeb16683c32669824ebdad"
+                                         RedirectURL:@"http://sns.whalecloud.com/sina2/callback"];
+    
+    [UMSocialQQHandler setQQWithAppId:@"100424468" appKey:@"c7394704798a158208a74ab60104f0ba" url:@"http://user.qzone.qq.com/775317846/infocenter"];
+    [UMSocialQQHandler setSupportWebView:YES];
+    
+    //隐藏没有安装的平台
+    [UMSocialConfig hiddenNotInstallPlatforms:@[UMShareToWechatSession,UMShareToWechatTimeline,UMShareToQQ,UMShareToQzone,UMShareToSina]];
+     */
+    
+}
+
+- (void)guidePages
+{
+    //数据源
+    NSArray *imageArray = @[ @"1.jpg", @"2.jpg", @"3.jpg", @"4.jpg" ];
+    
+    //  初始化方法1
+    MZGuidePages *mzgpc = [[MZGuidePages alloc] init];
+    mzgpc.imageDatas = imageArray;
+    __weak typeof(MZGuidePages) *weakMZ = mzgpc;
+    mzgpc.buttonAction = ^{
+        [UIView animateWithDuration:2.0f
+                         animations:^{
+                             weakMZ.alpha = 0.0;
+                         }
+                         completion:^(BOOL finished) {
+                             [weakMZ removeFromSuperview];
+                         }];
+    };
+    
+    //  初始化方法2
+    //    MZGuidePagesController *mzgpc = [[MZGuidePagesController alloc]
+    //    initWithImageDatas:imageArray
+    //                                                                            completion:^{
+    //                                                                              NSLog(@"click!");
+    //
+    
+    //要在makeKeyAndVisible之后调用才有效
+    [self.window addSubview:mzgpc];
+}
+
 
 @end
